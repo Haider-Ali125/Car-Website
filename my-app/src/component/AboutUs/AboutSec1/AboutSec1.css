@@ -1,4 +1,4 @@
-/* Section1 */
+
 .About-sectoin1 {
   box-sizing: border-box;
   text-align: center;
@@ -11,13 +11,12 @@
   background-position: center;
   width: 100%;
   color: white;
-  /* text-align: center; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* align-items: center;
-     justify-content: center; */
+
   padding: 120px 0px;
   gap: 8px;
 }

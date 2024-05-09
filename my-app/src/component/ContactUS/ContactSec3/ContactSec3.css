@@ -13,7 +13,6 @@
 .About-section4-contant1 {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   color: white;
   width: 50%;
 }
@@ -29,7 +28,6 @@
 }
 
 .contact-sect4-form-main {
-  /* padding: 0px 0px 0px 8%; */
   width: 60%;
   color: white;
   display: flex;

@@ -1,10 +1,10 @@
-/* About Section */
+
 
 .About-section2 {
   max-height: fit-content;
   background: #0c1315;
   display: flex;
-  /* align-items: center; */
+ 
   justify-content: center;
   padding: 60px 10%;
 }

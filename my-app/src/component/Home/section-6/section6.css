@@ -1,20 +1,17 @@
 .section6-back-img {
-  /* background-image: url('sect6-back-img.png'); */
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  /* background-color: black; */
+
   display: flex;
   background-image: url("/public/images/Seti6-backgr.png");
   background-size: cover;
-  /* justify-content: space-evenly; */
 }
 
 .section6 {
   background-color: #0c1315;
   color: white;
   padding: 40px 10%;
-  /* background-image: url("/public/images/Seti6-backgr.png"); */
 }
 .section6-contant {
   width: 50%;
@@ -41,10 +38,9 @@
   display: flex;
   flex-direction: column;
   padding-left: 10%;
-  /* align-items: center; */
+
   justify-content: center;
   text-align: center;
-  /* align-items: center; */
 }
 .ratio-head {
   color: #ff5c1d;
