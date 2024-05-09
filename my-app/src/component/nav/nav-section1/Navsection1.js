@@ -6,7 +6,7 @@ const Navsection1 = () => {
       <div class="nav-1">
         <div class="email">
           <i class="fa fa-envelope"></i>
-          <p>houston365@gmail.com</p>
+          <p>alihassan@gmail.com</p>
         </div>
         <div class="nav-2">
           <i class="fa-solid fa-phone"></i>
