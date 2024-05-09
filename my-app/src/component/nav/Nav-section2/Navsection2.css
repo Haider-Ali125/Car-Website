@@ -5,7 +5,6 @@
   justify-content: space-between;
   gap: 20px;
   box-sizing: border-box;
-  
 }
 .img-logo {
   height: 60px;
@@ -26,6 +25,11 @@
   list-style: none;
   text-decoration: none;
 }
+.menu-list li:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 .menu-list a {
   color: black;
   text-decoration: none;
