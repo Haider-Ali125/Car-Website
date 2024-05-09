@@ -1,0 +1,138 @@
+/* footer */
+.footer-main {
+  padding: 50px 10% 10px 10%;
+  width: 100%;
+  /* background-color: #f5f5f5; */
+  background-image: url("/public/images/Nav-backgr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.nav-img {
+  width: 200px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer2-para {
+  margin-top: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-about {
+  width: 25%;
+  min-width: 300px;
+}
+.footer-links {
+  width: 15%;
+  min-width: 280px;
+}
+
+.footer-services {
+  width: 20%;
+  min-width: 280px;
+}
+.footor-subsrcibe {
+  width: 25%;
+  min-width: 300px;
+}
+.footer-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.foot-in {
+  border-radius: 2px;
+  padding: 4px 10px;
+  border: none;
+  background-color: #eae5e5;
+  box-shadow: 0px 2px 3px black;
+  color: #fffafa;
+  width: 50%;
+}
+.foot-in:focus {
+  border: none;
+  outline: none;
+}
+.foot-btn {
+  background-color: #ff5c1d;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  margin-top: 2px;
+}
+
+.footer-link-list {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link-list li {
+  list-style: none;
+  padding: 0;
+}
+.footer-services-list {
+  padding: 0;
+  margin: 0;
+}
+.footer-services-list li {
+  list-style: none;
+  padding: 0;
+}
+.footer-about-head,
+.footer-services-head,
+.footer-links-head,
+.footor-subsrcibe-head {
+  color: #ff5c1d;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.footer-hr {
+  border: 1px solid #ff5c1d;
+  margin: 0;
+  margin-top: 10px;
+}
+.footer-copyright {
+  margin: 0;
+  margin: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .footer-main {
+    padding: 25px 5% 10px 5%;
+    background-position: center;
+  }
+  .footer-menu {
+    flex-wrap: wrap;
+  }
+  .footer-about {
+    width: 100%;
+  }
+  .footer-links {
+    width: 100%;
+  }
+
+  .footer-services {
+    width: 100%;
+  }
+  .footor-subsrcibe {
+    width: 100%;
+  }
+  .footer2-para {
+    width: 90%;
+  }
+}

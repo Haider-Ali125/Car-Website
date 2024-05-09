@@ -1,0 +1,55 @@
+.nav-1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  min-height: 70px;
+  max-height: fit-content;
+  background-color: #ff5c1d;
+  gap: 70px;
+}
+.email {
+  display: flex;
+  margin-left: 5rem;
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+.email i {
+  margin: 5px 10px;
+}
+
+.nav-2 i {
+  margin: 4px 8px;
+}
+.email p {
+  margin: 0;
+}
+.nav-2 p {
+  margin: 0;
+}
+.nav-2 {
+  display: flex;
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+
+@media screen and (min-width: 650px) and (max-width: 850px) {
+  .email {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .nav-1 {
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 10px 15%;
+    gap: 10px;
+  }
+  .email {
+    margin-left: 0rem;
+  }
+  .nav-2 i {
+    margin: 4px 10px;
+  }
+}

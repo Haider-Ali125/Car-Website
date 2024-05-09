@@ -1,0 +1,47 @@
+.section10 {
+  max-height: fit-content;
+  background-color: #ff5c1d;
+  padding: 20px 14%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.sect10-imgs {
+  width: 90px;
+}
+.sect10-head {
+  margin: 0;
+  font-size: 28px;
+  color: white;
+  font-weight: 400;
+}
+.sect10-text {
+  width: 70%;
+  padding-left: 12%;
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+  .sect10-head {
+    font-size: 24px;
+  }
+  .sect10-img {
+    width: 15%;
+  }
+  .sect10-text {
+    padding: 0px 0px 0px 6%;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .sect10-head {
+    font-size: 18px;
+  }
+  .section10 {
+    padding: 20px 5%;
+  }
+  .sect10-text {
+    padding: 0px 0px 0px 6%;
+    width: 85%;
+  }
+}

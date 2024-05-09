@@ -1,0 +1,102 @@
+.Home-section3 {
+  background-color: #141a1c;
+  color: white;
+  padding: 70px 0px;
+  /* text-align: center; */
+}
+
+.section3-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section3-contact h3 {
+  color: #ff5c1d;
+}
+.section3-contact hr {
+  opacity: 1;
+  margin: 0;
+  width: 250px;
+  border: 1px solid #ff5c1d;
+}
+.section3-img {
+  margin-top: 20px;
+  width: 650px;
+}
+.sec3-card1 h6 {
+  font-size: 16px;
+  color: #ff5c1d;
+  font-weight: 700;
+  margin: 0;
+}
+.sec3-card1 p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.sect3-img {
+  width: 50px;
+  margin-bottom: 5px;
+}
+.sec3-card1 {
+  width: 345px;
+  height: 190px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Home-section3-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-section3-cards-1 {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 74%;
+}
+/* .section3-cards-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+} */
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+  .Home-section3-cards-1 {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 849px) {
+  .Home-section3-card {
+    padding: 10px 10px;
+  }
+  .sect3-Car {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3-img {
+    margin-top: 20px;
+    width: 70%;
+  }
+  .Home-section3-cards-1 {
+    width: 100%;
+  }
+  .Home-sect3-para {
+    width: 70%;
+  }
+}

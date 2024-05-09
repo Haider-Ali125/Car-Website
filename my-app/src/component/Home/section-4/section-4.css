@@ -1,0 +1,114 @@
+.Home-section4 {
+  max-height: fit-content;
+  background: #0c1315;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 60px 10px;
+}
+
+.section-img {
+  width: 450px;
+}
+.section4-content {
+  padding: 0px 30px;
+  width: 450px;
+  color: white;
+}
+
+.section4-content h5 {
+  color: #ff5c1d;
+}
+.section4-content h3 {
+  font-size: 42px;
+}
+.section4-content p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.sect4-card1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sect4-img1 {
+  width: 90px;
+}
+
+.sect4-img2 {
+  width: 70px;
+}
+.section4-card h3 {
+  margin: 0;
+}
+.section4-card p {
+  /* width: 40%; */
+  margin: 0;
+  color: #ff5c1d;
+}
+.section4-card {
+  /* width: 70%; */
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width:600px) and (max-width: 950px) {
+  .Home-section4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section4-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.section-img{
+  width: 70%;
+}
+
+  .section4-content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px 12%;
+  }
+  .section4-content h3 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Home-section4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section4-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.section-img{
+  width: 70%;
+}
+
+  .section4-content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px 12%;
+  }
+  .section4-content h3 {
+    font-size: 24px;
+  }
+}
+

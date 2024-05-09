@@ -1,0 +1,36 @@
+.About-sect-3 {
+  display: flex;
+  padding: 15px 10%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 100px;
+  max-height: fit-content;
+  background-image: url("/public/images/About-counter.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.count-head {
+  font-size: 36px;
+  font-weight: 900;
+  color: #ff5c1d;
+}
+.count-para {
+  color: white;
+}
+
+.counter2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+  .About-sect-3 {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+  }
+}
