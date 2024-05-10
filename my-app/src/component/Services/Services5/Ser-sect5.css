@@ -1,0 +1,151 @@
+.Ser-sect5-main {
+  max-height: fit-content;
+  background: #0c1315;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 10%;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.Ser-sect5-img-side {
+  width: 100%;
+}
+.Ser-sect5-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+}
+
+.Ser-sect5-contents {
+  padding: 0px 0px 0px 8%;
+  width: 75%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.Ser-sect5-contents h3 {
+  font-size: 32px;
+  width: 85%;
+}
+.Ser-sect5-para {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  width: 70%;
+  line-height: 1.5;
+}
+.Ser-sect5-content-head {
+  font-size: 30px;
+}
+
+.Ser-sect5-drivers {
+  font-size: 18px;
+  font-style: italic;
+  color: #ff5c1d;
+  margin-bottom: 10px;
+}
+
+.Sect-upper h3,
+.Sect-lower h3,
+.Sect5-right2 h3 {
+  font-size: 20px;
+  font-style: italic;
+  color: #ff5c1d;
+  margin-bottom: 10px;
+}
+
+.Sect-upper p {
+  font-size: 18px;
+  font-weight: 300;
+  width: 85%;
+  line-height: 1.5;
+}
+.Sect5-right2 p {
+  font-size: 18px;
+  font-weight: 300;
+
+  line-height: 1.5;
+}
+
+.Sect5-right {
+  display: flex;
+}
+
+.Sect5-right1 {
+  width: 50%;
+}
+
+.Sect5-right2 {
+  width: 50%;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1150px) {
+  .Ser-sect5-para {
+    width: 95%;
+    font-size: 16px;
+  }
+  .Ser-sect5-content-head {
+    font-size: 26px;
+  }
+  .Ser-sect5-contents h3 {
+    font-size: 28px;
+  }
+
+  .Sect-upper h3,
+  .Sect-lower h3 {
+    font-size: 18px;
+    font-style: italic;
+    color: #ff5c1d;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  .Ser-sect5-main {
+    flex-direction: column;
+    padding: 30px 10%;
+  }
+  .Ser-sect5-img {
+    width: 100%;
+  }
+  .Ser-sect3-img-side {
+    width: 80%;
+  }
+  .Ser-sect5-contents {
+    width: 100%;
+    padding: 0;
+  }
+
+  .Ser-sect5-para {
+    width: 95%;
+    font-size: 16px;
+  }
+
+  .Ser-sect5-content-head {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .Ser-sect5-contents h3 {
+    font-size: 26px;
+    width: 100%;
+  }
+  .Sect5-right2 h3 {
+    font-size: 16px;
+    font-style: italic;
+  }
+  .Sect-upper h3,
+  .Sect-lower h3 {
+    font-size: 16px;
+
+  }
+
+  .Sect5-right2 p {
+    font-size: 16px;
+  }
+}

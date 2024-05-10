@@ -1,0 +1,41 @@
+.Serv-sectoin1 {
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 550px;
+  max-height: fit-content;
+
+  background-image: url("/public/images/Services1-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 120px 0px;
+  gap: 8px;
+}
+
+/* .sectoin1 p {
+  margin: 0px;
+} */
+.Serv-sectoin1-para p {
+  font-size: 22px;
+}
+.Serv-sectoin1-head {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 650px) {
+  .Serv-sectoin1-para p {
+    font-size: 18px;
+  }
+  .Serv-sectoin1-head {
+    font-size: 36px;
+  }
+}

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Navsection2 = () => {
   return (
-    
     <div className="nav-section2">
       <div className="img">
         <img className="img-logo" src="/images/logo.png" alt="logo" />
@@ -17,7 +16,7 @@ const Navsection2 = () => {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/services-us">Services</Link>
           </li>
           <li>
             <Link to="/fleet">Fleet</Link>
@@ -34,9 +33,7 @@ const Navsection2 = () => {
         <button className="sign-btn">Sign In</button>
         <button className="regis">Register</button>
       </div>
-  
     </div>
-  
   );
 };
 

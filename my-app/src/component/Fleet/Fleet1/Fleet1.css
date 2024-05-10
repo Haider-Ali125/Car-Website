@@ -1,0 +1,55 @@
+.Feelt1 {
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 550px;
+  max-height: fit-content;
+
+  background-image: url("/public/images/Fleet-sec1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 120px 0px;
+  gap: 8px;
+}
+
+.Feelt1-head {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* .sectoin1 p {
+  margin: 0px;
+} */
+@media screen and (min-width: 951px) and (max-width: 1150px) {
+  .Feelt1-sect1-para p {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .Feelt1 {
+    padding: 60px 0px;
+  }
+  .Feelt1-sect1-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Feelt1-sect1-para p {
+    width: 80%;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+}
