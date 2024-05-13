@@ -1,0 +1,58 @@
+.Health4-sectoin1 {
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 450px;
+  max-height: fit-content;
+
+  background-image: url("/public/images/Health4-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 120px 0px;
+  gap: 8px;
+}
+
+.About-head {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+}
+.Health4-sect1-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Health4-sect1-para p {
+  margin: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .Health4-sectoin1 {
+    padding: 60px 0px;
+  }
+  .Health4--sect1-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .About-head {
+    font-size: 32px;
+  }
+
+  .Health4-sect1-para p {
+    width: 80%;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+}

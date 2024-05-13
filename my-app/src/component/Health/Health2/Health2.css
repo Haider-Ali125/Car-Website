@@ -1,0 +1,122 @@
+.Health2-main {
+  max-height: fit-content;
+  background-color: black;
+  color: white;
+  padding: 50px 0px;
+}
+.Health2-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px;
+}
+.Health2-para {
+  font-size: 18px;
+  margin: 0;
+  color: #ff5c1d;
+  font-weight: 300;
+}
+.Health2-text h3 {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.Health2-text hr {
+  opacity: 1;
+  margin: 0;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ff5c1d;
+}
+
+.Health2-main-content {
+  max-height: fit-content;
+  /* background: #0c1315; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 6%;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.Health2-img-side {
+  width: 70%;
+}
+.Health2-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 20px;
+}
+
+.Health2-text p {
+  margin-top: 8px;
+  width: 85%;
+}
+
+.Health2-contents {
+  width: 60%;
+  padding: 0px 0px 0px 4%;
+}
+.Health2-contents-para {
+  font-size: 16px;
+  width: 90%;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1150px) {
+  .Health2-text {
+    padding: 0px 20px;
+  }
+  .Health2-text p {
+    width: 70%;
+  }
+  .Health2-para {
+    width: 95%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Health2-text {
+    padding: 0px 20px;
+  }
+
+  .Health2-text h3 {
+    font-size: 20px;
+  }
+
+  .Health2-text p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .Health2-img-side {
+    width: 60%;
+  }
+
+  .Health2-main-content {
+    flex-direction: column-reverse;
+  }
+
+  .Health2-contents {
+    width: 100%;
+  }
+  .Health2-img {
+    width: 100%;
+  }
+  .Health2-contents-para {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .Health2-main {
+    padding: 20px 0px;
+  }
+}
