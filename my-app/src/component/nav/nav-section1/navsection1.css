@@ -2,32 +2,48 @@
   display: flex;
   align-items: center;
   color: white;
-  min-height: 70px;
+  min-height: 60px;
   max-height: fit-content;
   background-color: #ff5c1d;
   gap: 70px;
 }
 .email {
   display: flex;
-  margin-left: 5rem;
-
+  margin-left: 10.5rem;
+  align-items: center;
+  gap: 12px;
 }
 .email i {
   margin: 5px 10px;
+}
+.Nav-email-Img1 {
+  width: 22px;
+  height: 15.48px;
 }
 
 .nav-2 i {
   margin: 4px 8px;
 }
 .email p {
+  font-weight: 500;
+  font-size: 16px;
   margin: 0;
 }
+
+.Nav-Phone {
+  width: 18px;
+  height: 18px;
+}
+
 .nav-2 p {
+  font-weight: 500;
+  font-size: 16px;
   margin: 0;
 }
 .nav-2 {
   display: flex;
-  
+  align-items: center;
+  gap: 12px;
 }
 
 @media screen and (min-width: 650px) and (max-width: 850px) {

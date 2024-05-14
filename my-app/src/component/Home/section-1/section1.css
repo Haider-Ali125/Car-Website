@@ -19,47 +19,71 @@
 }
 
 .Home-par {
+  font-family: "Barlow Condensed";
   color: #ff5c1d;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
+  font-style: italic;
+  font-size: "";
   margin: 0;
 }
 .head {
-  font-size: 34px;
+  font-family: "Barlow Condensed";
+  font-size: 64px;
   font-weight: 700;
   margin: 0;
 }
 .head-cols {
+  font-family: "Barlow Condensed";
   color: #ff5c1d;
-  font-size: 34px;
+  font-size: 64px;
   font-weight: 700;
   margin: 0;
 }
 .head-spa {
   color: white;
 }
-.sectoin1 p {
+/* .sectoin1 p {
   margin: 0px;
-}
+} */
 .sect-btn {
-  margin-top: 20px;
+  margin-top: 35px;
   display: flex;
   gap: 10px;
 }
+.Homelast-para p {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Barlow Condensed";
+  margin: 0;
+  line-height: 24px;
+}
+
 .sect-btn-1 {
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 700;
   border: none;
   color: white;
   background-color: #ff5c1d;
   border-radius: 4px;
-  padding: 4px 12px;
-  font-weight: 600;
+  padding: 12px 20px;
+  /* width: 100px;
+  height: 40px; */
 }
 .sect-btn-2 {
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 700;
   border: none;
   background-color: white;
   border-radius: 4px;
-  padding: 4px 12px;
+  padding: 12px 20px;
   font-weight: 600;
+}
+
+.Homelast-para {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 849px) {
@@ -76,7 +100,7 @@
   .head {
     font-size: 26px;
   }
-  .last-para p {
+  .Homelast-para p {
     margin: 0;
     margin-bottom: 5px;
   }

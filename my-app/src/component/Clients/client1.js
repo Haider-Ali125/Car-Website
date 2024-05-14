@@ -1,4 +1,5 @@
 import "./client.css";
+// import SwipersCard from "../Swiper/SwipersCard";
 
 const Client = () => {
   return (
@@ -15,6 +16,7 @@ const Client = () => {
       </p>
 
       <hr />
+      {/* <SwipersCard /> */}
       <div class="sect8-card">
         <div class="sect8-card1">
           <p class="sect8-para-main">

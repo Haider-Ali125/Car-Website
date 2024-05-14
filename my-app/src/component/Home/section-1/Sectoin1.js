@@ -9,7 +9,7 @@ const Sectoin1 = () => {
       <h3 class="head-cols">
         Chauffeured Car <span class="head-spa">Services</span>
       </h3>
-      <div class="last-para">
+      <div class="Homelast-para">
         <p>Get a vehicle for any event and experience a safe,</p>
         <p>pleasant trip to your destination.</p>
       </div>
